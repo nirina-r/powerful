@@ -1,0 +1,30 @@
+.header{
+    background-color: black;
+    color: white;
+    font-family: georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 40;
+}
+
+p{
+    font-size: 9;
+    font-family: helvetica, arial, sans-serif; 
+}
+
+ul{
+    font-size: 9;
+    font-family: helvetica, arial, sans-serif; 
+}
+
+.sidebarG{
+    background-color: rgb(48, 171, 180);
+    color: white;
+}
+
+.contenu{
+    background-color: black;
+    color: white;
+}
+
