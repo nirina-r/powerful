@@ -12,3 +12,28 @@ h1{
     font-size: 50pt;
     text-align: center;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 217, 0);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(raleway/Raleway-Medium.ttf);
+    src: url(raleway/Raleway-SemiBold.ttf);
+    src: url(raleway/Raleway-Regular.ttf);
+    src: url(raleway/Raleway-Light.ttf);
+        
+}
+
+h2{
+    font-family: Raleway, 'Courier New', Courier, monospace;
+    text-align: center;
+    letter-spacing: 2pt;
+}
