@@ -75,10 +75,6 @@ body{
     display: grid;
 }
 
-.lorem{
-    
-}
-
 .card{
     background-color: black;
     color: white;
@@ -87,5 +83,21 @@ body{
     display: grid;
     grid-template-columns: 30% 30% 30%;
     text-align: center;
+}
+h4{
+    font-family: raleway;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+h5{
+    font-family: helvetica, sans-serif;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.contenu{
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
