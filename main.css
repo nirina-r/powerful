@@ -2,6 +2,20 @@
     background-color: black;
     color: white;
     font-family: helvetica, Arial, sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 15% 60% 25%;
+}
+
+.menu{
+    text-align: center;
+    display: grid;
+    column-gap: 20px;
+    text-align: center;
+}
+
+.title{
+    background-color: black;
 }
 
 .elementcolor{
@@ -11,6 +25,7 @@
 h1{
     font-size: 50pt;
     text-align: center;
+    color: white;
 }
 
 a{
@@ -32,8 +47,45 @@ a:hover{
         
 }
 
-h2{
+h3{
     font-family: Raleway, 'Courier New', Courier, monospace;
     text-align: center;
     letter-spacing: 2pt;
+    color: white;
+    background-color: black;
 }
+
+button{
+    font-size: 12pt;
+    color: white;
+    background-color: black;
+    border: solid;
+    border-color: rgb(255, 217, 0);
+    border-radius: 2pt;
+    font-family: helvetica, Arial, sans-serif;
+}
+
+button:hover{
+    color:black;
+    background-color: rgb(255, 217, 0);
+    font-weight: bold;
+}
+
+body{
+    display: grid;
+}
+
+.lorem{
+    
+}
+
+.card{
+    background-color: black;
+    color: white;
+    font-family: helvetica, sans-serif;
+    font-size: 8pt;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    text-align: center;
+}
+
